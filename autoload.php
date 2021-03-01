@@ -23,6 +23,6 @@ function general_autoload($classname)
     
 }
 
-//Registramos la el auload de clases 
+//Registramos el autoload de clases
 spl_autoload_register('general_autoload');
 
